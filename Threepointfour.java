@@ -21,7 +21,7 @@ public class Threepointfour {
 		}
 			else if ((numPeople > 3) && (numPeople <10)) {
 			
-				double groupSize = numPlayers/11;
+				double groupSize = numPeople/3;
 				System.out.println("The group size is: "+groupSize);
 			}
 			else {
@@ -33,7 +33,7 @@ public class Threepointfour {
 		if ((numPlayers >11) &&(numPlayers <55)) {
 
 			
-				double teamSize = (numPeople/3);
+				double teamSize = (numPlayers/11);
 				System.out.println("The team size is: "+teamSize);
 			}
 		else {
